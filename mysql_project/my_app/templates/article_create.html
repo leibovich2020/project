@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% block content %}
+
+    <div class="create-article">
+        <h2>Add New Worker</h2>
+        <table>
+        <form class="site-form" action="{% url 'my_app:create' %}" method="post" enctype="multipart/form-data">
+            {% csrf_token %}
+           {{ form.as_table }}
+            <hr>
+            <br/><input type="submit"  class="btn btn-secondary" value="Create"><br/>
+            <br/></table><br/>
+        </form>
+    </div>
+{% endblock %}

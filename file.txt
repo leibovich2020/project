@@ -1,0 +1,47 @@
+[
+  {
+    "id": 9,
+    "title": "Slim-Shady",
+    "slug": "Slim-Shady",
+    "first_name": "Slim",
+    "last_name": "Shady",
+    "email": "Shady@gmail.com",
+    "hire_date": "2019-06-06",
+    "phone_number": 11122331,
+    "job_id": "2",
+    "salary": 32211,
+    "comission": 0,
+    "body": "One of the most famous singers in the world",
+    "thumb": "http://127.0.0.1:8000/media/slim-e1570098725834.jpg"
+  },
+  {
+    "id": 13,
+    "title": "Jim-Carrey",
+    "slug": "Jim-Carrey",
+    "first_name": "Jim",
+    "last_name": "Carrey",
+    "email": "Carrey@gmail.com",
+    "hire_date": "2020-04-23",
+    "phone_number": 3355531,
+    "job_id": "2",
+    "salary": 14444,
+    "comission": 0,
+    "body": "The actor in the green mask",
+    "thumb": "http://127.0.0.1:8000/media/GettyImages-459287444_V53YZAx.jpg"
+  },
+  {
+    "id": 16,
+    "title": "Albert-Einstein",
+    "slug": "Albert-Einstein",
+    "first_name": "Albert",
+    "last_name": "Einstein",
+    "email": "Einstein@gmail.com",
+    "hire_date": "2019-06-06",
+    "phone_number": 99079785,
+    "job_id": "2",
+    "salary": 23333,
+    "comission": 0,
+    "body": "The smartest man in the world with the highest IQ there is",
+    "thumb": "http://127.0.0.1:8000/media/%D7%94%D7%95%D7%A8%D7%93%D7%94_nitwOP0.jpg"
+  }
+]

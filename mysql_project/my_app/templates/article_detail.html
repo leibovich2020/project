@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+{% block title %}{{ article.title }}{% endblock %}
+
+
+{% block content %}
+<br/>
+<div class="article-detail">
+    <div class="article">
+
+        <img src="{{ article.thumb.url }}" width="300" height="300"><hr>
+
+        <br>
+        <h2>first_name is:  <b>{{ article.first_name }}</b><br></h2><br>
+        <h2>last_name is:  <b>{{ article.last_name }}</b><br></h2><br>
+        <h2>email is:  <b>{{ article.email }}</b><br></h2><br>
+        <h2>phone_number is:  <b>{{ article.phone_number }}</b><br></h2><br>
+        <h2>hire_date is:  <b>{{ article.hire_date }}</b><br></h2><br>
+        <h2>job_id is:  <b>{{ article.job_id }}</b><br></h2><br>
+        <h2>salary is:  <b>{{ article.salary }}</b><br></h2><br>
+        <h2>comission is:  <b>{{ article.comission }}</b><br></h2><br>
+        <h2>body is:    <b>{{ article.body }}</b></h2><br>
+
+
+
+
+    </div>
+</div>
+<br/>
+<h1> <a href="{% url 'my_app:list' %}" class="btn btn-secondary">Back</a> </h1>
+
+
+{% endblock %}

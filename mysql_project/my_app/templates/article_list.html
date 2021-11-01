@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+{% block content %}
+<html lang="en">
+
+    <meta charset="UTF-8">
+    <title>Title</title>
+<h1><center>Hello This Is My Worker Page
+</h1>
+{% for article in articles %}
+    <div class="card mb-3" style="max-width: 940px;">
+  <div class="row g-0">
+    <div class="col-md-4">
+      <img src="{{ article.thumb.url }}" class="img-fluid rounded-start" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title"> {{ article.last_name }}
+    {{ article.first_name }}</h5>
+          phone_number: {{ article.phone_number }}<br/>
+         email :  {{ article.email  }}
+        <p class="card-text">{{ article.body }}</p>
+
+          <a href="{% url 'my_app:detail' slug=article.slug %}" class="btn btn-primary">Go To {{ article.title }}</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% endfor %}
+{% endblock %}
